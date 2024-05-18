@@ -2,14 +2,15 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { useState } from "react";
-import "./Header.css";
 import { mdiTicket } from '@mdi/js';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import "./Header.css";
+
 const Header = () => {
   const [isLogin, setIsLogin] = useState(true);
   return (
     <div className="relative w-full">
-      <div className="w-full bg-pink_1 text-center py-[8px]">
+      <div className="w-full bg-pink_1 text-center py-2">
         <span className="text-sm text-white font-medium flex items-center justify-center">
           <svg className="mr-2" width="24" height="24" viewBox="0 0 24 24" fill="white">
             <path d={mdiTicket} />
@@ -21,16 +22,16 @@ const Header = () => {
           </Link>
         </span>
       </div>
-      <div className="flex w-full items-center justify-between px-[160px] py-[16px] bg-pink_1">
+      <div className="flex flex-col lg:flex-row w-full items-center justify-between px-4 md:px-10 lg:px-40 py-4 bg-pink_1">
         <Link to="/">
           <img
-            className="relative w-[98px] h-[37px] object-cover"
-            alt="Logo copy"
+            className="relative w-24 h-9 object-cover"
+            alt="Logo"
             src="/logo_nghich.png"
           />
         </Link>
 
-        <div className="flex gap-20">
+        <div className="flex gap-4 md:gap-8 lg:gap-20 mt-4 lg:mt-0">
           <Link to="/" className="text-gray_2 font-medium">
             Home
           </Link>
@@ -45,7 +46,7 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-4 md:gap-6 mt-4 lg:mt-0">
           <Link className="h-5 w-5">
             <img
               alt="search"
