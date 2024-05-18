@@ -72,11 +72,11 @@ const HomePage = () => {
           />
           <div className="mt-52 ml-7 mr-7 border border-customBlue rounded-lg w-50 h-fit">
             <div className="border-b border-customBlue p-4">
-              <p className="font-manjari text-white text-40px leading-tight mb-2"><FontAwesomeIcon icon={faStar} className="mr-2" /> Who are we?</p>
+              <p className="font-manjari text-white text-25px leading-tight mb-2"><FontAwesomeIcon icon={faStar} className="mr-2" /> Who are we?</p>
               <h1 className="font-manjari mb-5 text-gray_2 text-16px leading-tight"> "nghịch" brings you a website platform where you have the creative freedom to design and customize your unique personal bag. Our website helps you choose from various options, allowing you to select colors, patterns, and styles that reflect your individuality.</h1>
             </div>
             <div className="pb-2 p-4">
-              <p className="font-manjari text-white text-40px leading-tight mb-2"><FontAwesomeIcon icon={faStar} className="mr-2" /> Why are we different?</p>
+              <p className="font-manjari text-white text-25px leading-tight mb-2"><FontAwesomeIcon icon={faStar} className="mr-2" /> Why are we different?</p>
               <h1 className="font-manjari text-gray_2 text-16px leading-tight"> Among countless products on the market, finding a place for yourself is really difficult. We understand that, if you don't really stand out at something, how can you become more stand out? We too, in a fierce market with millions of products, to become your choice we must become very unique. What is unique to us is unique to you.</h1>
               <h2 className="font-manjari text-gray_2 text-16px leading-tight mt-5"> nghịch team</h2>
             </div>
